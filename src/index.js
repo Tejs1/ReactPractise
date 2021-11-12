@@ -5,6 +5,7 @@ import CommentDetails from "./CommentDetails";
 import faker from "faker";
 
 //create
+
 const App = () => {
   return (
     <div className="ui comments">
