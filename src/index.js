@@ -8,7 +8,9 @@ import ApprovalCard from "./ApprovalCard";
 //create
 
 const App = () => {
-  window.navigator.geolocation.getCurrentPosition();
+  window.navigator.geolocation.getCurrentPosition((position) =>
+    console.log(position)
+  );
   return (
     <div className="ui comments">
       <ApprovalCard>
