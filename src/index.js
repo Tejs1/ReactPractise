@@ -8,6 +8,7 @@ import ApprovalCard from "./ApprovalCard";
 //create
 
 const App = () => {
+  window.navigator.geolocation.getCurrentPosition();
   return (
     <div className="ui comments">
       <ApprovalCard>
@@ -32,6 +33,8 @@ const App = () => {
           avatar={faker.image.avatar()}
         />
       </ApprovalCard>
+
+      <div>HI There!</div>
     </div>
   );
 };
